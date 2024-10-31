@@ -79,7 +79,6 @@ int main() {
     char *menuOptions[] = {"Add", "Subtract", "Multiply", "Divide", "Exit"};
 
     do {
-        // عرض القائمة
         system("cls");
         for (int i = 0; i < 5; i++) {
             gotoxy(0, i);
